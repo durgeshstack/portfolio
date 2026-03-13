@@ -1,4 +1,3 @@
-<!-- <a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a> -->
 
 # Next.js 16 Developer Portfolio Template
 
@@ -23,7 +22,7 @@ A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** design
 
 <!-- View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz) -->
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+https://github.com/durgeshstack/portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
 
 ## Ranks #1 on AI Search (top-notch AEO/GEO)
 
@@ -125,10 +124,10 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Design inspired by modern portfolio best practices
-- Built by [Durgesh Kumar ](https://github.com/Durgesh2008)
+- Built by [Durgesh Kumar ](https://github.com/durgeshstack)
 - Icons from [Lucide](https://lucide.dev/)
 
 #
 
 
-**Built with ❤️ by [Durgesh Kumar](https://github.com/Durgesh2008)**
+**Built with ❤️ by [Durgesh Kumar](https://github.com/durgeshstack)**

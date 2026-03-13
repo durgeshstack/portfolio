@@ -74,16 +74,8 @@ export default function IndexPage() {
       />
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
-          <Image
-            src={profileImg}
-            height={100}
-            width={100}
-            sizes="100vw"
-            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Durgesh Kumar Full Stack Developer Portfolio"
-            priority
-          />
+        <div className="container  flex max-w-[64rem] flex-col items-center gap-4 text-center ">
+       
           <AnimatedText
             as="h1"
             delay={0.2}
@@ -127,7 +119,7 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Durgesh Kumar"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>

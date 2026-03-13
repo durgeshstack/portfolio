@@ -1,38 +1,49 @@
 import type { MetadataRoute } from "next";
 
+
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Naman Barkiya | Applied AI Engineer",
-    short_name: "Naman Barkiya",
+    name: "Durgesh | Full Stack Developer",
+    short_name: "Durgesh",
     description:
-      "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems.",
+      "Durgesh - Full Stack Developer specializing in React, Next.js, Node.js, and scalable web applications.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
     theme_color: "#000000",
+    lang: "en",
+    dir: "ltr",
+    scope: "/",
+    categories: [
+      "portfolio",
+      "developer",
+      "web development",
+      "software engineering",
+      "full stack",
+      "javascript",
+    ],
     icons: [
       {
         src: "/favicon.ico",
-        sizes: "64x64",
+        sizes: "48x48",
+        type: "image/x-icon",
+      },
+      {
+        src: "/icon-192.png",
+        sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/favicon.ico",
-        sizes: "64x64",
+        src: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+      },
+      {
+        src: "/icon-512.png",
+        sizes: "512x512",
         type: "image/png",
         purpose: "maskable",
       },
     ],
-    categories: [
-      "portfolio",
-      "ai",
-      "software engineering",
-      "machine learning",
-      "developer",
-      "web development",
-    ],
-    lang: "en",
-    dir: "ltr",
-    scope: "/",
   };
 }

@@ -10,8 +10,8 @@ export const siteConfig = {
 
   links: {
     // twitter: "https://twitter.com/",
-    github: "https://github.com/Durgesh2008",
-    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    github: "https://github.com/durgeshstack",
+    templateRepo: "https://github.com/durgeshstack/portfolio",
   },
 
   ogImage:
