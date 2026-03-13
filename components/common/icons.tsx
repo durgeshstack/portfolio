@@ -5,6 +5,7 @@ import {
   Building,
   Calendar,
   Check,
+  CheckCircle,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
@@ -91,6 +92,7 @@ export const Icons = {
   post: FileText,
   page: File,
   media: Image,
+  successAnimated:CheckCircle ,
   settings: Settings,
   billing: CreditCard,
   ellipsis: MoreVertical,
@@ -141,7 +143,7 @@ export const Icons = {
   docker: SiDocker,
   jest: SiJest,
   systemDesign: HiOutlineServer,
-
+  
   gmail: SiGmail,
   twitter: SiX,
   linkedin: SiLinkedin,

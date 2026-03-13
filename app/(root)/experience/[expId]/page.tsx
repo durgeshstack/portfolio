@@ -191,8 +191,10 @@ export default async function ExperienceDetailPage({
                   <div className="flex justify-center sm:justify-end">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-primary/10 text-primary border border-primary/20">
                       {getDurationText(
-                        experience.startDate,
-                        experience.endDate
+                        new Date(experience.startDate),
+                        experience.endDate === "Present"
+                          ? "Present"
+                          : new Date(experience.endDate)
                       )}
                     </span>
                   </div>

@@ -1,27 +1,24 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 
-import BlogCard from "@/components/blogs/blog-card";
+
 import { AnimatedSection } from "@/components/common/animated-section";
 import { AnimatedText } from "@/components/common/animated-text";
 import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { Icons } from "@/components/common/icons";
-import ContributionCard from "@/components/contributions/contribution-card";
 import ExperienceCard from "@/components/experience/experience-card";
 import ProjectCard from "@/components/projects/project-card";
 import SkillsCard from "@/components/skills/skills-card";
 import { Button, buttonVariants } from "@/components/ui/button";
-import { featuredContributions } from "@/config/contributions";
+
 import { experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
-import { getFeaturedBlogs } from "@/lib/blogs";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/dk-pic.jpeg";
+
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
@@ -33,7 +30,7 @@ export const metadata: Metadata = {
 };
 
 export default function IndexPage() {
-  const featuredBlogs = getFeaturedBlogs();
+ 
   // Structured data for personal portfolio
   const personSchema = {
     "@context": "https://schema.org",
