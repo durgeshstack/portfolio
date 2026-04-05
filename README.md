@@ -99,7 +99,17 @@ Visually represent your technical and soft skills with customizable ratings and 
 A ready-to-use contact form that can connect to various backend services.
 
 
+#### Env 
+GOOGLE_FORM_LINK=xxxxxxxxxxxxxxxx
+GOOGLE_FORM_FIELD_ID_NAME=xxxxxxxxxxxxxx
+GOOGLE_FORM_FIELD_ID_EMAIL=xxxxxxxxxxxxxxxxxx
+GOOGLE_FORM_FIELD_ID_MESSAGE=xxxxxxxxxxxxxxxxxx
+GOOGLE_FORM_FIELD_ID_SOCIAL=xxxxxxxxxxxxxxxx
 
+NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID=xxxxxxxxxxxxxxxxxxxxxx
+
+# Resume Link
+NEXT_PUBLIC_RESUME_LINK=https://drive.google.com/file/d/1mDRWsNlWwkb4catQUiOolqOAjT3JRaoS/view?usp=drivesdk
 
 This template is optimized for:
 
